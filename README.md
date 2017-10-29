@@ -1,27 +1,7 @@
-# Testproj
+# Angular 4 - Laravel - JWT Authentication
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.3.
+To fully understand how JWTs are used, we have to shift our thinking a bit. Traditional authentication requires that the server store the user's authentication information which is checked every time the user makes a request. This method creates challenges when the application grows and needs to scale up, especially if it is distributed across several different servers. It also becomes problematic when we want to use our API for other purposes, such as for mobile applications. 
 
-## Development server
+For this i have used Angular 4 as Front end and Php Laravel as backend
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+You can see the backend : https://github.com/shazvan275/JWT-Authentication-Laravel.git
